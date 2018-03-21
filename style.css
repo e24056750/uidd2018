@@ -2,46 +2,47 @@ body {
 	background:linear-gradient(10deg,#30FF30,#00DBDB);
 }
 #jpg {
+	left:0%;
   width: 800vw;
   height:800vh;
   position: fixed;
   background-repeat:no-repeat;
-  background-size:800px 800px;
+  background-size:45vw 45vw;
   background-image:url("my_wife.jpg");
   
 }
 .word1 {
-  left:65vw;
+  left:50%;
   top: 30vh;
   font-family:consolas;
-  font-size:170%;
+  font-size:2vw;
   font-weight:bold;
   color:gray;
-  position:fixed;
+  position:absolute;
   }
 .word2{
   left:55vw;
   top:5vh;
   font-family:consolas;
-  font-size:250%;
+  font-size:3vw;
   font-weight:bold;
   color:black;
-  position:fixed;
+  position:absolute;
   }
   .word3{
   left:55vw;
   top:45vh;
   font-family:consolas;
-  font-size:150%;
+  font-size:2vw;
   font-weight:bold;
   color:#8A5A00;
-  position:fixed;
+  position:absolute;
   }
 .mark{
   left:55vw;
   top:75vh;
   font-family:consolas;
   font-size:150%;
-  font-weight:bold;
+
   position:fixed;
   }
