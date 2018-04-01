@@ -1,196 +1,200 @@
 #start{
 position:absolute;
-width:400px;
-height:300px;
+width:15vw;
+height:15vh;
 left: 65%; top : 32%;
 }
 #river{
 position:absolute;
-width:1000px;
-height:1500px;
-left: 45%; top : 17%;
+width:30vw;
+height:60vh;
+left: 40%; top : 17%;
 }
 #ship{
 position:fixed;
-width:500px;
-height:500px;
-left: 51%; top : 23%;
+width:15vw;
+height:15vh;
+left: 45%; top : 30%;
 display:block;
 }
 #logo{
 position:absolute;
-width:700px;
-height:500px;
+width:15vw;
+height:18vh;
 left: 0%; top : 0%;
 }
 #page1{
 position:absolute;
-width:1000px;
-height:400px;
-left: 12%; top : 16%;
+width:20vw;
+height:14vh;
+left: 12%; top : 13%;
 }
 #page2{
 position:absolute;
-width:1000px;
-height:400px;
-left: 11%; top : 22%;
+width:20vw;
+height:14vh;
+left: 11%; top : 18%;
 display:none;
 }
 #page3{
 position:absolute;
-width:1000px;
-height:420px;
-left: 10%; top : 26%;
+width:20vw;
+height:16vh;
+left: 10%; top : 23%;
 display:none;
 }
 #home{
 position:absolute;
-width:200px;
-height:100px;
-left: 55%; top : 10%;
+width:7vw;
+height:7vh;
+left: 48%; top : 5%;
 }
 #attraction{
 position:absolute;
-width:350px;
-height:100px;
-left: 60%; top : 10.6%;
+width:10vw;
+height:7vh;
+left: 55%; top : 6%;
 }
 #food{
 position:absolute;
-width:200px;
-height:100px;
-left: 69%; top : 10.6%;
+width:7vw;
+height:7vh;
+left: 65%; top : 6%;
 }
 #contact{
 position:absolute;
-width:250px;
-height:100px;
-left: 75%; top : 10.3%;
+width:9vw;
+height:7vh;
+left: 72%; top : 5.4%;
 }
 #login{
 position:absolute;
-width:250px;
-height:100px;
-left: 83%; top : 10.6%;
+width:7vw;
+height:7vh;
+left: 81%; top : 5.5%;
 }
 #weather{
 position:absolute;
-width:250px;
-height:300px;
-left: 90%; top : 6%;
+width:9vw;
+height:11vh;
+left: 88%; top : 4%;
 }
 #icon{
 position:absolute;
-width:500px;
-height:300px;
-left: 5%; top : 82%;
+width:18vw;
+height:18vh;
+left: 0%; top : 82%;
 }
 #money{
 position:fixed;
-width:230px;
-height:200px;
-left: 45.2%; top : 53%;
+width:7.5vw;
+height:7.5vh;
+left: 40.5%; top : 51%;
 display:none;
 }
 #second2{
 position:absolute;
-font-size:80px;
-left: 81%; top : 47%;
+font-size:1vw;
+left: 85%; top : 51%;
 display:none;
 }
 #word{
 position:absolute;
-font-size:100px;
-left: 75%; top : 44%;
+font-size:2vw;
+left: 78%; top : 44.5%;
 display:none;
 }
 #click{
 position:fixed;
-width:330px;
-height:300px;
+width:10vw;
+height:13vh;
 left: 63.2%; top : 48%;
 display:none;
 }
 #count{
 position:absolute;
-font-size:150px;
-left: 71.5%; top : 51.5%;
+font-size:4vw;
+left: 74%; top : 50%;
 display:none;
 }
 #second{
 position:absolute;
-font-size:150px;
-left: 77.5%; top : 51.5%;
+font-size:4vw;
+left: 80%; top : 50%;
 display:none;
 }
 #noodle1{
 position:absolute;
-font-size:150px;
+width:20vw;
+height:30vh;
 left: 40%; top : 25%;
 display:none;
 }
 #noodle2{
 position:absolute;
-font-size:150px;
+width:20vw;
+height:13vh;
 left:60%; top :33%;
 display:none;
 }
 #sushi1{
 position:absolute;
-font-size:150px;
+width:20vw;
+height:30vh;
 left: 40%; top : 60%;
 display:none;
 }
 #sushi2{
 position:absolute;
-font-size:150px;
+width:20vw;
+height:13vh;
 left: 61%; top : 64%;
 display:none;
 }
 #money1{
 position:absolute;
-font-size:100px;
-left: 89%; top : 24.5%;
+font-size:2vw;
+left: 89%; top : 23%;
 display:none;
 }
 #money2{
 position:absolute;
-font-size:60px;
+font-size:1vw;
 left: 92%; top : 20%;
 display:none;
 }
 #coin1{
 position:fixed;
-width:230px;
-height:200px;
-left: 45.2%; top : 53%;
+width:7.5vw;
+height:7.5vh;
+left: 40.5%; top : 51%;
 display:none;
 }
 #coin2{
 position:fixed;
-width:230px;
-height:200px;
-left: 45.2%; top : 53%;
+width:7.5vw;
+height:7.5vh;
+left: 40.5%; top : 51%;
 display:none;
 }
 #coin3{
 position:fixed;
-width:230px;
-height:200px;
-left: 45.2%; top : 53%;
+width:7.5vw;
+height:7.5vh;
+left: 40.5%; top : 51%;
 display:none;
 }
 #coin4{
 position:fixed;
-width:230px;
-height:200px;
-left: 45.2%; top : 53%;
+width:7.5vw;
+height:7.5vh;
+left: 40.5%; top : 51%;
 display:none;
 }
 #coin5{
 position:fixed;
-width:230px;
-height:200px;
-left: 45.2%; top : 53%;
+width:7.5vw;
+height:7.5vh;
+left: 40.5%; top : 51%;
 display:none;
 }

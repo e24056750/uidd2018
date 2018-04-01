@@ -18,7 +18,7 @@ var money =document.getElementById("money2");
 Number(count.innerHTML);
 count.innerHTML = 0;
 var second = document.getElementById("second");
-second.innerHTML = 10;
+second.innerHTML = 2;
 var a = 0;
 var change = 0;
 var food1 = document.getElementById("noodle1");
@@ -127,20 +127,20 @@ start_on.onclick =function() {
 		function move2() {
 			second.innerHTML -=1;
 			if (second.innerHTML<0) {change="2";	
-		coins[0].style.top = -300+"px";
-		coins[1].style.top = -300+"px";
-		coins[2].style.top = -300+"px";
-		coins[3].style.top = -300+"px";
-		coins[4].style.top = -300+"px";}
+		coins[0].style.top = -10+"%";
+		coins[1].style.top = -10+"%";
+		coins[2].style.top = -10+"%";
+		coins[3].style.top = -10+"%";
+		coins[4].style.top = -10+"%";}
 			a = 1;}}
 
 	start_on.onclick =function() {
 		x++;
-		var pos1 = 1200;
-		var pos2 = 1200;
-		var pos3 = 1200;
-		var pos4 = 1200;
-		var pos5 = 1200;
+		var pos1 = 51;
+		var pos2 = 51;
+		var pos3 = 51;
+		var pos4 = 51;
+		var pos5 = 51;
 		var t = setInterval(move,1);
 		var down1=0;
 		var down2=0;
@@ -152,47 +152,47 @@ start_on.onclick =function() {
 
 		function move() {
 
-			if(x==1 && pos1==1200 &&down1==0) {
+			if(x==1 && pos1==51 &&down1==0) {
 				down1=1;
-			} else if(x==2 && pos2==1200&&down2==0) {
+			} else if(x==2 && pos2==51&&down2==0) {
 				down2=1;
-			} else if(x==3 && pos3==1200&&down3==0) {
+			} else if(x==3 && pos3==51&&down3==0) {
 				down3=1;
-			} else if(x==4 && pos4==1200&&down4==0) {
+			} else if(x==4 && pos4==51&&down4==0) {
 				down4=1;
-			} else if(x==5 && pos5==1200&&down5==0) {
+			} else if(x==5 && pos5==51&&down5==0) {
 				down5=1;
 			}
 
 			if(down1==1) {
-				if(pos1<-200) {down1=0;pos1=1200;}
-				pos1 -= 10;
+				if(pos1<-10) {down1=0;pos1=51;}
+				pos1 -= 0.3;
 				coins[0].style.display = "block";
-				coins[0].style.top = pos1+"px";
+				coins[0].style.top = pos1+"%";
 			}
 			if(down2==1) {
-				if(pos2<-200) {down2=0;pos2=1200;}
-				pos2 -= 10;
+				if(pos2<-10) {down2=0;pos2=51;}
+				pos2 -= 0.3;
 				coins[1].style.display = "block";
-				coins[1].style.top = pos2+"px";
+				coins[1].style.top = pos2+"%";
 			}
 			if(down3==1) {
-				if(pos3<-200) {down3=0;pos3=1200;}
-				pos3 -= 10;
+				if(pos3<-10) {down3=0;pos3=51;}
+				pos3 -= 0.3;
 				coins[2].style.display = "block";
-				coins[2].style.top = pos3+"px";
+				coins[2].style.top = pos3+"%";
 			}
 			if(down4==1) {
-				if(pos4<-200) {down4=0;pos4=1200;}
-				pos4 -= 10;
+				if(pos4<-10) {down4=0;pos4=51;}
+				pos4 -= 0.3;
 				coins[3].style.display = "block";
-				coins[3].style.top = pos4+"px";
+				coins[3].style.top = pos4+"%";
 			}
 			if(down5==1) {
-				if(pos5<-200) {down5=0;pos5=1200;}
-				pos5 -= 10;
+				if(pos5<-10) {down5=0;pos5=51;}
+				pos5 -= 0.3;
 				coins[4].style.display = "block";
-				coins[4].style.top = pos5+"px";
+				coins[4].style.top = pos5+"%";
 			}
 
 			if(x>5) {x=0;}
@@ -228,11 +228,11 @@ function changepage() {
 		var x = 0;
 		if (start_drop == "1") {
 			var drop_money = money_count;
-			var pos1 = -200;
-			var pos2 = -220;
-			var pos3 = -240;
-			var pos4 = -260;
-			var pos5 = -280;
+			var pos1 = -10;
+			var pos2 = -11;
+			var pos3 = -14;
+			var pos4 = -18;
+			var pos5 = -13;
 			var t3 = setInterval(move3, 1);
 			var down1 = 0;
 			var down2 = 0;
@@ -248,79 +248,80 @@ function changepage() {
 						x = 1;
 					}
 
-					if (x == 1 && pos1 == -200 && down1 == 0) {
+					if (x == 1 && pos1 == -10 && down1 == 0) {
 						down1 = 1;
 						drop_money--;
-					} else if (x == 2 && pos2 == -220 && down2 == 0) {
+					} else if (x == 2 && pos2 == -11 && down2 == 0) {
 						down2 = 1;
 						drop_money--;
-					} else if (x == 3 && pos3 == -240 && down3 == 0) {
+					} else if (x == 3 && pos3 == -14 && down3 == 0) {
 						down3 = 1;
 						drop_money--;
-					} else if (x == 4 && pos4 == -260 && down4 == 0) {
+					} else if (x == 4 && pos4 == -18 && down4 == 0) {
 						down4 = 1;
 						drop_money--;
-					} else if (x == 5 && pos5 == -280 && down5 == 0) {
+					} else if (x == 5 && pos5 == -13 && down5 == 0) {
 						down5 = 1;
 						drop_money--;
 					}
 				}
 				if (down1 == 1) {
 
-					pos1 += 3;
+					pos1 += 0.3;
 					coins[0].style.display = "block";
-					coins[0].style.top = pos1 + "px";
-					if (pos1 > 3000) {
+					coins[0].style.left = 20+"%";
+					coins[0].style.top = pos1 + "vh";
+					if (pos1 > 100) {
 						down1 = 0;
-						pos1 = -200;
+						pos1 = -10;
 						coins[0].style.display = "none";
 					}
 				}
 				if (down2 == 1) {
 
-					pos2 += 5;
+					pos2 += 0.2;
 					coins[1].style.display = "block";
-					coins[1].style.left = 1500 + "px";
-					coins[1].style.top = pos2 + "px";
-					if (pos2 > 3000) {
+					coins[1].style.left = 40+ "%";
+					coins[1].style.top = pos2 + "vh";
+					if (pos2 > 100) {
 						down2 = 0;
-						pos2 = -220;
+						pos2 = -11;
 						coins[1].style.display = "none";
 					}
 				}
 				if (down3 == 1) {
 
-					pos3 += 7;
+					pos3 += 0.4;
 					coins[2].style.display = "block";
-					coins[2].style.left = 4000 + "px";
-					coins[2].style.top = pos3 + "px";
-					if (pos3 > 3000) {
+					coins[2].style.left =77+ "%";
+					coins[2].style.top = pos3 + "vh";
+					if (pos3 > 100) {
 						down3 = 0;
-						pos3 = -240;
+						pos3 = -14;
 						coins[2].style.display = "none";
 					}
 				}
 				if (down4 == 1) {
 
-					pos4 += 4;
+					pos4 += 0.2;
 					coins[3].style.display = "block";
-					coins[3].style.left = 3400 + "px";
-					coins[3].style.top = pos4 + "px";
-					if (pos4 > 3000) {
+					coins[3].style.left = 60+ "%";
+					coins[3].style.top = pos4 + "vh";
+					if (pos4 > 100) {
 						down4 = 0;
-						pos4 = -260;
+						pos4 = -18;
 						coins[3].style.display = "none";
 					}
 				}
 				if (down5 == 1) {
 
-					pos5 += 8;
+					pos5 += 0.3;
 					coins[4].style.display = "block";
-					coins[4].style.left = 2800 + "px";
-					coins[4].style.top = pos5 + "px";
-					if (pos5 > 3000) {
+					coins[4].style.left = 90+ "%";
+					coins[4].style.top = pos5 + "vh";
+					if (pos5 > 100) {
 						down5 = 0;
-						pos5 = -280;
+						pos5 = -13;
 						coins[4].style.display = "none";
 					}
 				}
