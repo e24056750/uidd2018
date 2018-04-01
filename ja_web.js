@@ -18,7 +18,7 @@ var money =document.getElementById("money2");
 Number(count.innerHTML);
 count.innerHTML = 0;
 var second = document.getElementById("second");
-second.innerHTML = 2;
+second.innerHTML = 10;
 var a = 0;
 var change = 0;
 var food1 = document.getElementById("noodle1");
