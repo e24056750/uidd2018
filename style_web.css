@@ -1,0 +1,196 @@
+#start{
+position:absolute;
+width:400px;
+height:300px;
+left: 65%; top : 32%;
+}
+#river{
+position:absolute;
+width:1000px;
+height:1500px;
+left: 45%; top : 17%;
+}
+#ship{
+position:fixed;
+width:500px;
+height:500px;
+left: 51%; top : 23%;
+display:block;
+}
+#logo{
+position:absolute;
+width:700px;
+height:500px;
+left: 0%; top : 0%;
+}
+#page1{
+position:absolute;
+width:1000px;
+height:400px;
+left: 12%; top : 16%;
+}
+#page2{
+position:absolute;
+width:1000px;
+height:400px;
+left: 11%; top : 22%;
+display:none;
+}
+#page3{
+position:absolute;
+width:1000px;
+height:420px;
+left: 10%; top : 26%;
+display:none;
+}
+#home{
+position:absolute;
+width:200px;
+height:100px;
+left: 55%; top : 10%;
+}
+#attraction{
+position:absolute;
+width:350px;
+height:100px;
+left: 60%; top : 10.6%;
+}
+#food{
+position:absolute;
+width:200px;
+height:100px;
+left: 69%; top : 10.6%;
+}
+#contact{
+position:absolute;
+width:250px;
+height:100px;
+left: 75%; top : 10.3%;
+}
+#login{
+position:absolute;
+width:250px;
+height:100px;
+left: 83%; top : 10.6%;
+}
+#weather{
+position:absolute;
+width:250px;
+height:300px;
+left: 90%; top : 6%;
+}
+#icon{
+position:absolute;
+width:500px;
+height:300px;
+left: 5%; top : 82%;
+}
+#money{
+position:fixed;
+width:230px;
+height:200px;
+left: 45.2%; top : 53%;
+display:none;
+}
+#second2{
+position:absolute;
+font-size:80px;
+left: 81%; top : 47%;
+display:none;
+}
+#word{
+position:absolute;
+font-size:100px;
+left: 75%; top : 44%;
+display:none;
+}
+#click{
+position:fixed;
+width:330px;
+height:300px;
+left: 63.2%; top : 48%;
+display:none;
+}
+#count{
+position:absolute;
+font-size:150px;
+left: 71.5%; top : 51.5%;
+display:none;
+}
+#second{
+position:absolute;
+font-size:150px;
+left: 77.5%; top : 51.5%;
+display:none;
+}
+#noodle1{
+position:absolute;
+font-size:150px;
+left: 40%; top : 25%;
+display:none;
+}
+#noodle2{
+position:absolute;
+font-size:150px;
+left:60%; top :33%;
+display:none;
+}
+#sushi1{
+position:absolute;
+font-size:150px;
+left: 40%; top : 60%;
+display:none;
+}
+#sushi2{
+position:absolute;
+font-size:150px;
+left: 61%; top : 64%;
+display:none;
+}
+#money1{
+position:absolute;
+font-size:100px;
+left: 89%; top : 24.5%;
+display:none;
+}
+#money2{
+position:absolute;
+font-size:60px;
+left: 92%; top : 20%;
+display:none;
+}
+#coin1{
+position:fixed;
+width:230px;
+height:200px;
+left: 45.2%; top : 53%;
+display:none;
+}
+#coin2{
+position:fixed;
+width:230px;
+height:200px;
+left: 45.2%; top : 53%;
+display:none;
+}
+#coin3{
+position:fixed;
+width:230px;
+height:200px;
+left: 45.2%; top : 53%;
+display:none;
+}
+#coin4{
+position:fixed;
+width:230px;
+height:200px;
+left: 45.2%; top : 53%;
+display:none;
+}
+#coin5{
+position:fixed;
+width:230px;
+height:200px;
+left: 45.2%; top : 53%;
+display:none;
+}
