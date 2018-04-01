@@ -5,6 +5,16 @@ var page2 = document.getElementById("page2");
 var click = document.getElementById("click");
 var count = document.getElementById("count");
 var page3 = document.getElementById("page3");
+var login =document.getElementById("login");
+var hi1 =document.getElementById("home");
+var hi2 =document.getElementById("attraction");
+var hi3 =document.getElementById("food");
+var hi4 =document.getElementById("contact");
+var logo =document.getElementById("logo");
+logo.onclick=function(){
+		alert("歡迎來到府城五條港遊戲區，請點擊遊戲開始，並藉由在10秒內賺到的錢購買想吃的食物");
+}
+var money =document.getElementById("money2");
 Number(count.innerHTML);
 count.innerHTML = 0;
 var second = document.getElementById("second");
@@ -15,8 +25,15 @@ var food1 = document.getElementById("noodle1");
 var food2 = document.getElementById("noodle2");
 var food3 = document.getElementById("sushi1");
 var food4 = document.getElementById("sushi2");
+var click_word = document.getElementById("click");
+click_word.onclick=function(){
+		alert("要點start才可以拿到錢哦~~");
+}
 var money1 = document.getElementById("money1");
 var money2 = document.getElementById("money2");
+money2.onclick=function(){
+		alert("仔細看看掉下來的硬幣   是不是跟你賺的一樣多呢!?");
+}
 var money_count = 0;
 Number(money1.innerHTML);
 var coins = new Array(5);
@@ -25,7 +42,49 @@ coins[1]=document.getElementById("coin2");
 coins[2]=document.getElementById("coin3");
 coins[3]=document.getElementById("coin4");
 coins[4]=document.getElementById("coin5");
-
+var icon_time=0;
+icon.onclick=function(){
+	
+		if(icon_time==0){alert("我只是個圖案");}
+		else if(icon_time==1){alert("幹嘛一直點我= =");}
+		else if(icon_time==2){alert("可惡我要生氣惹╰（‵□′）╯!!");}
+		else if(icon_time==3){alert("我不理你了");}
+		icon_time++;
+		if(icon_time==6){alert("沒被打過?");}
+		if(icon_time==6){alert("可惡我要把你頁面關掉");}
+		if(icon_time==6){alert(".");}
+		if(icon_time==6){alert("...");}	
+		if(icon_time==6){alert(".......");}
+		if(icon_time==6){alert("乾我不會關= =");}
+}
+weather.onclick=function(){
+		alert("今天天氣真好啊~~");
+		alert("不要惹FB IG TWITTER連結三兄弟哦");
+}
+login.onclick=function(){
+		alert("你要login去哪裡??   0.0");
+}
+hi1.onclick=function(){
+		alert("嗨");
+}
+hi2.onclick=function(){
+		alert("嗨嗨");
+}
+hi3.onclick=function(){
+		alert("嗨嗨嗨");
+}
+hi4.onclick=function(){
+		alert("嗨嗨嗨嗨");
+}
+page1.onclick=function(){
+		alert("五條港是昔日清朝時存在於今臺南市中西區裡的五條商用港道，由北到南分別是新港墘港、佛頭港、南勢港（或稱北勢港)、南河港與安海港。是當時非常繁榮的地方哦");
+}
+page2.onclick=function(){
+		alert("臺南水仙宮位於臺南市中西區，是中華民國直轄市定古蹟，也是昔日臺灣府城七寺八廟之一。廟內主祀水仙尊王，即「一帝兩王二大夫」的大禹、寒奡、項羽、伍子胥和屈原。");
+}
+page3.onclick=function(){
+		alert("水仙宮市場名字的由來乃係因為它是以水仙宮廟為中心，並且水仙宮廟乃被政府列為三級古蹟，是在地人相當有名且規模相當大的一間宮廟。");
+}
 food1.onclick=function(){
 	if(money_count>=25){
 		alert("便宜料多的海產麵，只要55元就可以飽餐一頓!賺");money_count=money_count-25;
@@ -33,18 +92,18 @@ food1.onclick=function(){
 }
 food2.onclick=function(){
 	if(money_count>=25){
-		alert("好吃好吃");money_count=money_count-25;
-	}else {alert("四郎!!踢她出去");}
+		alert("好吃好吃(￣﹁￣)");money_count=money_count-25;
+	}else {alert("四郎!!踢她出去╰（‵□′）╯");}
 }
 food3.onclick=function(){
 	if(money_count>=25){
 		alert("挖~這生魚片也太新鮮了吧owo!!");money_count=money_count-25;
-	}else {alert("來人啊把他抬出去!!");}
+	}else {alert("來人啊把他抬出去!!＝　＝╬ ");}
 }
 food4.onclick=function(){
 	if(money_count>=25){
 		alert("大鮪堂生魚片握壽司一級棒!!> <");money_count=money_count-25;
-	}else {alert("我們這兒不歡迎窮光蛋!!");}
+	}else {alert("我們這兒不歡迎窮光蛋!!<(￣ ﹌ ￣)>");}
 }
 
 start_on.onmouseover =function() {
