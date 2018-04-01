@@ -8,7 +8,7 @@ var page3 = document.getElementById("page3");
 Number(count.innerHTML);
 count.innerHTML = 0;
 var second = document.getElementById("second");
-second.innerHTML = 3;
+second.innerHTML = 10;
 var a = 0;
 var change = 0;
 var food1 = document.getElementById("noodle1");
@@ -25,6 +25,27 @@ coins[1]=document.getElementById("coin2");
 coins[2]=document.getElementById("coin3");
 coins[3]=document.getElementById("coin4");
 coins[4]=document.getElementById("coin5");
+
+food1.onclick=function(){
+	if(money_count>=25){
+		alert("便宜料多的海產麵，只要55元就可以飽餐一頓!賺");money_count=money_count-25;
+	}else {alert("敢吃霸王餐!!");}
+}
+food2.onclick=function(){
+	if(money_count>=25){
+		alert("好吃好吃");money_count=money_count-25;
+	}else {alert("四郎!!踢她出去");}
+}
+food3.onclick=function(){
+	if(money_count>=25){
+		alert("挖~這生魚片也太新鮮了吧owo!!");money_count=money_count-25;
+	}else {alert("來人啊把他抬出去!!");}
+}
+food4.onclick=function(){
+	if(money_count>=25){
+		alert("大鮪堂生魚片握壽司一級棒!!> <");money_count=money_count-25;
+	}else {alert("我們這兒不歡迎窮光蛋!!");}
+}
 
 start_on.onmouseover =function() {
 	start_on.src="start_b.png";
@@ -46,7 +67,12 @@ start_on.onclick =function() {
 		var t2 = setInterval(move2,1000);
 		function move2() {
 			second.innerHTML -=1;
-			if (second.innerHTML<0) {change="1";}
+			if (second.innerHTML<0) {change="2";	
+		coins[0].style.top = -300+"px";
+		coins[1].style.top = -300+"px";
+		coins[2].style.top = -300+"px";
+		coins[3].style.top = -300+"px";
+		coins[4].style.top = -300+"px";}
 			a = 1;}}
 
 	start_on.onclick =function() {
@@ -119,6 +145,10 @@ start_on.onclick =function() {
 var changepage = setInterval(changepage, 1);
 var start_drop = 0;
 function changepage() {
+	if (change == "2") {
+		change=1;
+	
+	}
 	if (change == "1") {
 		river.style.display = "none";
 		click.style.display = "none";
