@@ -14,6 +14,14 @@ var logo =document.getElementById("logo");
 logo.onclick=function(){
 		alert("歡迎來到府城五條港遊戲區，請點擊遊戲開始，並藉由在10秒內賺到的錢購買想吃的食物");
 }
+logo.onmouseover=function(){
+	logo.style.width=16+"vw";
+	logo.style.height=19+"vh";	
+}
+logo.onmouseout =function() {
+	logo.style.width=15+"vw";
+	logo.style.height=18+"vh";
+}
 var money =document.getElementById("money2");
 Number(count.innerHTML);
 count.innerHTML = 0;
@@ -33,6 +41,13 @@ var money1 = document.getElementById("money1");
 var money2 = document.getElementById("money2");
 money2.onclick=function(){
 		alert("仔細看看掉下來的硬幣   是不是跟你賺的一樣多呢!?");
+}
+money2.onmouseover=function(){
+	money2.style.top=19.5+"%";
+}
+money2.onmouseout =function() {
+	
+	money2.style.top=20+"%";
 }
 var money_count = 0;
 Number(money1.innerHTML);
@@ -57,55 +72,166 @@ icon.onclick=function(){
 		if(icon_time==6){alert(".......");}
 		if(icon_time==6){alert("乾我不會關= =");}
 }
+icon.onmouseover=function(){
+	icon.style.width=19+"vw";
+	icon.style.height=19+"vh";	
+}
+icon.onmouseout =function() {
+	icon.style.width=18+"vw";
+	icon.style.height=18+"vh";
+}
 weather.onclick=function(){
 		alert("今天天氣真好啊~~");
 		alert("不要惹FB IG TWITTER連結三兄弟哦");
 }
+weather.onmouseover=function(){
+	weather.style.width=10+"vw";
+	weather.style.height=12+"vh";	
+}
+weather.onmouseout =function() {
+	weather.style.width=9+"vw";
+	weather.style.height=11+"vh";
+}
 login.onclick=function(){
-		alert("你要login去哪裡??   0.0");
+		alert("你要login甚麼??   0.0");
+}
+login.onmouseover=function(){
+	login.style.width=8+"vw";
+	login.style.height=8+"vh";	
+}
+login.onmouseout =function() {
+	login.style.width=7+"vw";
+	login.style.height=7+"vh";
 }
 hi1.onclick=function(){
 		alert("嗨");
 }
+hi1.onmouseover=function(){
+	hi1.style.width=8+"vw";
+	hi1.style.height=8+"vh";	
+}
+hi1.onmouseout =function() {
+	hi1.style.width=7+"vw";
+	hi1.style.height=7+"vh";
+}
 hi2.onclick=function(){
 		alert("嗨嗨");
+}
+hi2.onmouseover=function(){
+	hi2.style.width=11+"vw";
+	hi2.style.height=8+"vh";	
+}
+hi2.onmouseout =function() {
+	hi2.style.width=10+"vw";
+	hi2.style.height=7+"vh";
 }
 hi3.onclick=function(){
 		alert("嗨嗨嗨");
 }
+hi3.onmouseover=function(){
+	hi3.style.width=8+"vw";
+	hi3.style.height=8+"vh";	
+}
+hi3.onmouseout =function() {
+	hi3.style.width=7+"vw";
+	hi3.style.height=7+"vh";
+}
 hi4.onclick=function(){
 		alert("嗨嗨嗨嗨");
+}
+hi4.onmouseover=function(){
+	hi4.style.width=10+"vw";
+	hi4.style.height=8+"vh";	
+}
+hi4.onmouseout =function() {
+	hi4.style.width=9+"vw";
+	hi4.style.height=7+"vh";
 }
 page1.onclick=function(){
 		alert("五條港是昔日清朝時存在於今臺南市中西區裡的五條商用港道，由北到南分別是新港墘港、佛頭港、南勢港（或稱北勢港)、南河港與安海港。是當時非常繁榮的地方哦");
 }
+page1.onmouseover=function(){
+	page1.style.width=21+"vw";
+	page1.style.height=15+"vh";	
+}
+page1.onmouseout =function() {
+	page1.style.width=20+"vw";
+	page1.style.height=14+"vh";
+}
 page2.onclick=function(){
 		alert("臺南水仙宮位於臺南市中西區，是中華民國直轄市定古蹟，也是昔日臺灣府城七寺八廟之一。廟內主祀水仙尊王，即「一帝兩王二大夫」的大禹、寒奡、項羽、伍子胥和屈原。");
 }
+page2.onmouseover=function(){
+	page2.style.width=21+"vw";
+	page2.style.height=15+"vh";	
+}
+page2.onmouseout =function() {
+	page2.style.width=20+"vw";
+	page2.style.height=14+"vh";
+}
 page3.onclick=function(){
 		alert("水仙宮市場名字的由來乃係因為它是以水仙宮廟為中心，並且水仙宮廟乃被政府列為三級古蹟，是在地人相當有名且規模相當大的一間宮廟。");
+}
+page3.onmouseover=function(){
+	page3.style.width=21+"vw";
+	page3.style.height=17+"vh";	
+}
+page3.onmouseout =function() {
+	page3.style.width=20+"vw";
+	page3.style.height=16+"vh";
 }
 food1.onclick=function(){
 	if(money_count>=25){
 		alert("便宜料多的海產麵，只要55元就可以飽餐一頓!賺");money_count=money_count-25;
 	}else {alert("敢吃霸王餐!!");}
 }
+food1.onmouseover=function(){
+	food1.style.width=21+"vw";
+	food1.style.height=31+"vh";	
+}
+food1.onmouseout =function() {
+	food1.style.width=20+"vw";
+	food1.style.height=30+"vh";
+}
 food2.onclick=function(){
 	if(money_count>=25){
 		alert("好吃好吃(￣﹁￣)");money_count=money_count-25;
 	}else {alert("四郎!!踢她出去╰（‵□′）╯");}
+}
+food2.onmouseover=function(){
+	food2.style.width=21+"vw";
+	food2.style.height=14+"vh";	
+}
+food2.onmouseout =function() {
+	food2.style.width=20+"vw";
+	food2.style.height=13+"vh";
 }
 food3.onclick=function(){
 	if(money_count>=25){
 		alert("挖~這生魚片也太新鮮了吧owo!!");money_count=money_count-25;
 	}else {alert("來人啊把他抬出去!!＝　＝╬ ");}
 }
+food3.onmouseover=function(){
+	food3.style.width=21+"vw";
+	food3.style.height=31+"vh";	
+}
+food3.onmouseout =function() {
+	food3.style.width=20+"vw";
+	food3.style.height=30+"vh";
+}
 food4.onclick=function(){
 	if(money_count>=25){
 		alert("大鮪堂生魚片握壽司一級棒!!> <");money_count=money_count-25;
 	}else {alert("我們這兒不歡迎窮光蛋!!<(￣ ﹌ ￣)>");}
 }
-
+food4.onmouseover=function(){
+	food4.style.width=21+"vw";
+	food4.style.height=14+"vh";	
+}
+food4.onmouseout =function() {
+	food4.style.width=20+"vw";
+	food4.style.height=13+"vh";
+}
 start_on.onmouseover =function() {
 	start_on.src="start_b.png";
 }
