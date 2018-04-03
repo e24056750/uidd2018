@@ -71,6 +71,8 @@ icon.onclick=function(){
 		if(icon_time==6){alert("...");}	
 		if(icon_time==6){alert(".......");}
 		if(icon_time==6){alert("乾我不會關= =");}
+		if(icon_time==6){icon.style.opacity=0;}
+		if(icon_time==6){alert("可惡!!╰（‵□′）╯!!!");}
 }
 icon.onmouseover=function(){
 	icon.style.width=19+"vw";
@@ -238,10 +240,26 @@ start_on.onmouseover =function() {
 start_on.onmouseout =function() {
 	start_on.src="start_w.png";
 }
+var dis1=1;
+var dis2=0.1;
+var op1=0.1;
+var op2=0.1;
 start_on.onclick =function() {
+	
+	var dis = setInterval(dis,100);
+	function dis() {
+		dis2 +=dis2;
+		ship.style.opacity=dis1-dis2;
+	}
 	river2_on.src="river2.png";
-	ship.style.display="none";
-	page2.style.display = "block";
+	var op = setInterval(op,100);
+	function op() {
+		page2.style.display = "block";
+		op1 +=op1;
+		page2.style.opacity=op1;
+		
+	}
+
 	click.style.display = "block";
 	count.style.display = "block";
 	second.style.display = "block";
@@ -335,6 +353,8 @@ function changepage() {
 	
 	}
 	if (change == "1") {
+	
+		
 		river.style.display = "none";
 		click.style.display = "none";
 		count.style.display = "none";
