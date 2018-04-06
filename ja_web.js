@@ -12,7 +12,7 @@ var hi3 =document.getElementById("food");
 var hi4 =document.getElementById("contact");
 var logo =document.getElementById("logo");
 logo.onclick=function(){
-		alert("歡迎來到府城五條港遊戲區，請點擊遊戲開始，並藉由在10秒內賺到的錢購買想吃的食物");
+		alert("歡迎來到府城五條港遊戲區，請點擊遊戲開始，並藉由在10秒內賺到的錢購買想吃的食物\n   Web:王昱淦                       Image&Design:Lisa Huang");
 }
 logo.onmouseover=function(){
 	logo.style.width=16+"vw";
