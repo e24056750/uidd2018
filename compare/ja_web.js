@@ -32,7 +32,7 @@ button3.onclick=function(){
 			}
 		}
 		alert(p1.data[0]+" "+p1.data[10]+" "+p1.data[100]);
-    alert(p2.data[0]+" "+p2.data[10]+" "+p2.data[100});
+    alert(p2.data[0]+" "+p2.data[10]+" "+p2.data[100]);
 		alert(" count ="+count+" 相似度= "+ count/100 +"%");
 }
 
