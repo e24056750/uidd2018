@@ -27,11 +27,11 @@ button3.onclick=function(){
 		//開始比對
 		var count =0;
 		for(var i=0;i<10000;i++){
-			if( p2.data[i]>p1.data[i]-150 && p2.data[i]<p1.data[i]+150){
+			if( p2.data[i]>p1.data[i]-50 && p2.data[i]<p1.data[i]+50){
 				count++;
 			}
 		}
 		
-		alert(" count = "+count+" 相似度= "+ count/100 +"%");
+		alert(" count ="+count+" 相似度= "+ count/100 +"%");
 }
 
