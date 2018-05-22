@@ -27,7 +27,7 @@ button3.onclick=function(){
 		//開始比對
 		var count =0;
 		for(var i=0;i<10000;i++){
-			if( p2.data[i]>p1.data[i]-25 && p2.data[i]<p1.data[i]+25){
+			if( p2.data[i]>p1.data[i]-150 && p2.data[i]<p1.data[i]+150){
 				count++;
 			}
 		}
