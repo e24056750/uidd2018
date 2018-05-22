@@ -32,6 +32,6 @@ button3.onclick=function(){
 			}
 		}
 		
-		alert("相似度="+ count/10000);
+		alert("相似度="+ count/100 +"%");
 }
 
