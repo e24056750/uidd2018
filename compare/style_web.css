@@ -1,0 +1,30 @@
+#a1{
+position:absolute;
+width:20%;
+height:20%;
+left: 0%; top : 0%;
+}
+#a2{
+position:absolute;
+width:20%;
+height:20%;
+left: 25%; top : 0%;
+}
+#button1{
+position:absolute;
+width:5%;
+height:3%;
+left: 15%; top : 30%;
+}
+#button2{
+position:absolute;
+width:5%;
+height:3%;
+left: 15%; top : 35%;
+}
+#button3{
+position:absolute;
+width:5%;
+height:3%;
+left: 15%; top : 40%;
+}
