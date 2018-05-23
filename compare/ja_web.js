@@ -33,14 +33,14 @@ button3.onclick=function(){
 		//開始比對
 		var count =0;
 		for(var i=0;i<360000;i++){
-			if( p2.data[i]>p1.data[i]-10 && p2.data[i]<p1.data[i]+10){
+			if( p2.data[i]>p1.data[i]-3 && p2.data[i]<p1.data[i]+3){
 				count++;
 			}
 		}
 		///測試
 		var count_test =0;
 				for(var i=0;i<360000;i++){
-			if( p3.data[i]>p1.data[i]-10 && p3.data[i]<p1.data[i]+10){
+			if( p3.data[i]>p1.data[i]-3 && p3.data[i]<p1.data[i]+3){
 				count_test++;
 			}
 		}
