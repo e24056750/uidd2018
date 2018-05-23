@@ -53,7 +53,7 @@ button3.onclick=function(){
 				count_test++;
 			}				if( p3.data[i+1]>p1.data[i+1]-3 && p3.data[i+1]<p1.data[i+1]+3){
 				count_test++;
-			}				if( p3.data[i+2]>p1.data[i+2]-3 && p3.data[i++2]<p1.data[i+2]+3){
+			}				if( p3.data[i+2]>p1.data[i+2]-3 && p3.data[i+2]<p1.data[i+2]+3){
 				count_test++;
 			}i=i+4;
 		}
