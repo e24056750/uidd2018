@@ -34,7 +34,7 @@ button3.onclick=function(){
 		//開始比對
 		alert(p1.data.length);
 		var count =0;
-		for(var i=0;i<360000;i=i+4){
+		for(var i=0;i<360000;){
 			if( p2.data[i]>p1.data[i]-3&& p2.data[i]<p1.data[i]+3){
 				count++;
 			}
@@ -44,20 +44,21 @@ button3.onclick=function(){
 						if( p2.data[i+2]>p1.data[i+2]-3 && p2.data[i+2]<p1.data[i+2]+3){
 				count++;
 			}
+      i=i+4;
 		}
 		///測試
 		var count_test =0;
-				for(var i=0;i<360000;i=i+4){
+				for(var i=0;i<360000;){
 				if( p3.data[i]>p1.data[i]-3 && p3.data[i]<p1.data[i]+3){
 				count_test++;
 			}				if( p3.data[i+1]>p1.data[i+1]-3 && p3.data[i+1]<p1.data[i+1]+3){
 				count_test++;
 			}				if( p3.data[i+2]>p1.data[i+2]-3 && p3.data[i++2]<p1.data[i+2]+3){
 				count_test++;
-			}
+			}i=i+4;
 		}
 		///
-		alert(" count ="+count+" 相似度= "+ count/2700 +"%");
+		alert("a count ="+count+" 相似度= "+ count/2700 +"%");
 		alert(" count_test ="+count_test+" 相似度= "+ count_test/2700 +"%");
 }
 
