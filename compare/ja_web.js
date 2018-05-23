@@ -1,4 +1,5 @@
 
+
 button1.onclick=function(){
 		alert("a1="+a1.height+" "+a1.width+" a2=  "+ a2.height+" "+ a2.width);
 }
@@ -33,34 +34,22 @@ button3.onclick=function(){
 		//開始比對
 		alert(p1.data.length);
 		var count =0;
-		for(var i=0;i<360000;){
+		for(var i=0;i<360000;i++){
 			if( p2.data[i]>p1.data[i]-1 && p2.data[i]<p1.data[i]+1){
 				count++;
 			}
-						if( p2.data[i+1]>p1.data[i+1]-1 && p2.data[i+1]<p1.data[i+1]+1){
-				count++;
-			}
-						if( p2.data[i+2]>p1.data[i+2]-1 && p2.data[i+2]<p1.data[i]+1){
-				count++;
-			}
-		i=i+4;
 		}
 		///測試
 		var count_test =0;
-				for(var i=0;i<360000;){
+				for(var i=0;i<360000;i++){
 				if( p3.data[i]>p1.data[i]-1 && p3.data[i]<p1.data[i]+1){
 				count_test++;
 			}
-						if( p3.data[i+1]>p1.data[i+1]-1 && p3.data[i+1]<p1.data[i+1]+1){
-				count_test++;
-			}
-						if( p3.data[i+2]>p1.data[i+2]-1 && p3.data[i+2]<p1.data[i]+1){
-				count_test++;
-			}
-		i=i+4;
 		}
 		///
-		alert(p1.data.length+" "+p1.data[0]+" "+p2.data[0]+" "+p3.data[0]+" "+p1.data[3]+" "+p3.data[3]);
+		for(var i=0;i<100;i++){
+			alert(p1.data[i]+" "+p2.data[i]+" "+p3.data[i]);
+		}
 		alert(" count ="+count+" 相似度= "+ count/3600 +"%");
 		alert(" count_test ="+count_test+" 相似度= "+ count_test/3600 +"%");
 }
