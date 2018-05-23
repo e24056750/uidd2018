@@ -31,6 +31,7 @@ button3.onclick=function(){
 		ctx3.drawImage(img3,0,0);
 		var p3 = ctx3.getImageData(0,0,300,300);
 		//開始比對
+    alert(p1.data.length);
 		var count =0;
 		for(var i=0;i<360000;i++){
 			if( p2.data[i]>p1.data[i]-3 && p2.data[i]<p1.data[i]+3){
