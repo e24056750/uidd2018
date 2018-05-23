@@ -34,19 +34,19 @@ button3.onclick=function(){
     alert(p1.data.length);
 		var count =0;
 		for(var i=0;i<360000;i++){
-			if( p2.data[i]>p1.data[i]-3 && p2.data[i]<p1.data[i]+3){
+			if( p2.data[i]>p1.data[i]-1 && p2.data[i]<p1.data[i]+1){
 				count++;
 			}
 		}
 		///測試
 		var count_test =0;
 				for(var i=0;i<360000;i++){
-			if( p3.data[i]>p1.data[i]-3 && p3.data[i]<p1.data[i]+3){
+			if( p3.data[i]>p1.data[i]-1 && p3.data[i]<p1.data[i]+1){
 				count_test++;
 			}
 		}
 		///
-		alert(p1.data.length+" "+p1.data[0]+" "+p2.data[0]+" "+p3.data[0]);
+		alert(p1.data.length+" "+p1.data[0]+" "+p2.data[0]+" "+p3.data[0]+" "+p1.data[3]+" "+p3.data[3]);
 		alert(" count ="+count+" 相似度= "+ count/3600 +"%");
 		alert(" count_test ="+count_test+" 相似度= "+ count_test/3600 +"%");
 }
