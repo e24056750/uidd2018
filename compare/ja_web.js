@@ -45,7 +45,7 @@ button3.onclick=function(){
 			}
 		}
 		///
-		alert(p1.data.length);
+		alert(p1.data.length+" "+p1.data[0]+" "p2.data[0]+" "+p3.data[0]);
 		alert(" count ="+count+" 相似度= "+ count/3600 +"%");
 		alert(" count_test ="+count_test+" 相似度= "+ count_test/3600 +"%");
 }
