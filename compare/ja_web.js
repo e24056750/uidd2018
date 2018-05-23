@@ -7,7 +7,8 @@ button2.onclick=function(){
 		a1.style.width=100+"px";
 		a2.style.height=100+"px";
 		a2.style.width=100+"px";
-		
+		a3.style.height=100+"px";
+		a3.style.width=100+"px";
 		alert("a1="+a1.height+" "+a1.width+" a2=  "+ a2.height+" "+ a2.width);
 }
 button3.onclick=function(){
