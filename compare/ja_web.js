@@ -33,19 +33,19 @@ button3.onclick=function(){
 		//開始比對
 		var count =0;
 		for(var i=0;i<360000;i++){
-			if( p2.data[i]>p1.data[i]-20 && p2.data[i]<p1.data[i]+20){
+			if( p2.data[i]>p1.data[i]-10 && p2.data[i]<p1.data[i]+10){
 				count++;
 			}
 		}
 		///測試
 		var count_test =0;
 				for(var i=0;i<360000;i++){
-			if( p3.data[i]>p1.data[i]-20 && p3.data[i]<p1.data[i]+20){
+			if( p3.data[i]>p1.data[i]-10 && p3.data[i]<p1.data[i]+10){
 				count_test++;
 			}
 		}
 		///
-
+		alert(p1.data.length);
 		alert(" count ="+count+" 相似度= "+ count/3600 +"%");
 		alert(" count_test ="+count_test+" 相似度= "+ count_test/3600 +"%");
 }
