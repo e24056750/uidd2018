@@ -9,12 +9,14 @@ position:absolute;
 width:20%;
 height:20%;
 left: 25%; top : 0%;
+display:none;
 }
 #a3{
 position:absolute;
 width:20%;
 height:20%;
 left: 50%; top : 0%;
+display:none;
 }
 #button1{
 position:absolute;
