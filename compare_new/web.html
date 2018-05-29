@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>照片比對</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="style_web.css">
+</head>
+<body>
+<canvas id="canvas" width="100" height="100" >your browser does not support the canvas tag </canvas>
+<img id="a1" src="a1.jpg">
+<img id="a2" src="a2.jpg">
+<img id="a3" src="a3.jpg">
+<button id="button1" >get!picture1</button>
+<button id="button2" >change!</button>
+<button id="button3" >compare!</button>
+<button id="button4" >this!</button>
+<!-- 純 JavaScript 版本-->
+<!-- HTML part -->
+<form action="/somewhere/to/upload" enctype="multipart/form-data">
+   <input type="file" onchange="readURL(this)" targetID="preview_progressbarTW_img" accept="image/gif, image/jpeg, image/png"/ >
+   <img id="preview_progressbarTW_img" src="#" />
+</form>
+
+
+
+<script type="text/javascript" src="ja_web.js">
+
+</script>
+</html>
