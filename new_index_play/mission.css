@@ -209,7 +209,7 @@
     height: 10vw;
     margin-left: 5vw;
     margin-right: 0vw;
-	margin-top: 5vw;
+	margin-top: 15vw;
   }
     #choose_buttom2{
 	width: 25vw;
@@ -217,4 +217,10 @@
     margin-left: 15vw;
     margin-right: 0vw;
 	
+  }
+  	.mission_anping_page3_word{
+	  display:none;
+  }
+    .mission_anping_page4_word{
+	  display:none;
   }
