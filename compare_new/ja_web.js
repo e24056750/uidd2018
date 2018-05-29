@@ -86,8 +86,7 @@ button3.onclick=function(){
 		if(a==3){
 		var c3= document.getElementById("canvas");
 		var ctx3=c3.getContext('2d');
-		var img3 = document.getElementById(imageTagID);
-		ctx3.drawImage(img3,0,0);
+		ctx3.drawImage(img,0,0);
 		var p3 = ctx3.getImageData(0,0,100,100);
 			///測試
 		var count_test =0;
