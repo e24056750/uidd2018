@@ -68,10 +68,7 @@ $(document).ready(function() {
 	    $("#choose_buttom1").click(function(){
 		$(".mission_anping_page3_word").css("display","none");
 		$(".mission_anping_page4_word").css("display","inline-block");
-		var choose_buttom1=document.getElementById("choose_buttom1");
-		var choose_buttom2=document.getElementById("choose_buttom2");		
-		choose_buttom1.style.margin-top=0+"vw";
-		choose_buttom2.style.display="none";
+		$("#choose_buttom2").css("display","none");
         console.log('mission_page:',mission_page,'mission_select:',mission_select,'story_page:',story_page);
     })
 
