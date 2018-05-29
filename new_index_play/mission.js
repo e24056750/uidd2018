@@ -65,7 +65,7 @@ $(document).ready(function() {
         mission_page=3;
         console.log('mission_page:',mission_page,'mission_select:',mission_select,'story_page:',story_page);
     })
-	    $("#choose_buttom1").click(function(){
+	$("#choose_buttom1").click(function(){
 		$(".mission_anping_page3_word").css("display","none");
 		$(".mission_anping_page4_word").css("display","inline-block");
 		$("#choose_buttom2").css("display","none");
